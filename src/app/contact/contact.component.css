@@ -1,0 +1,27 @@
+.padding-from-top {
+  padding-top: 20vh;
+}
+.my-label {
+  color: var(--primary-color);
+  font-size: 17px;
+  font-weight: 400;
+  height: 0%;
+  transform: translateY(150%);
+  transition: all 0.5s;
+}
+.my-label-change{
+  transform: translateY(0%);
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.form-control-lg {
+  padding-bottom: 15px;
+  font-size: 17px;
+}
+
+.form button{
+  background-color: var(--primary-color);
+
+  font-size: 17px;
+}

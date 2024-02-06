@@ -1,0 +1,31 @@
+<div class="contact padding-from-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="fw-bold fs-1">CONTACT SECTION</h2>
+        <div class="d-flex justify-content-center align-items-center mt-2">
+          <div class="line bg-dark me-3"></div>
+          <i class="fa-solid fa-star"></i>
+          <div class="line bg-dark ms-3"></div>
+        </div>
+      </div>
+
+      <div  class="form col-md-6 offset-md-3 my-5 pt-5">
+    
+        <div *ngFor="let item of formData" class=" p-3 mb-2">
+        <div [class]="item.inputvalue?'my-label-change':''" class=" my-label"><label [for]="item.labelName">{{item.labelName}} :</label></div>
+
+        <input
+        [(ngModel)]="item.inputvalue"
+          class=" position-relative form-control form-control-lg border-0 border-bottom"
+          [type]="item.type"
+          [id]="item.labelName"
+          [placeholder]="item.labelName"
+          aria-label=".form-control-lg example"
+        />
+      </div>
+      <button class="btn mt-3 pt-1 px-3 text-white" >send Message</button>
+    </div>
+    </div>
+  </div>
+</div>

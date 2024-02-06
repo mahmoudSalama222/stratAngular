@@ -5,7 +5,11 @@
   "projects": {
     "assignment-1": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+          "@schematics/angular:component": {
+          "skipTests": true
+          }
+        },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -25,9 +29,13 @@
               "src/assets"
             ],
             "styles": [
+               "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "61e39006-1aa0-48e5-b979-c9635564dbd4"
   }
 }

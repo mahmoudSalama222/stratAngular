@@ -1,0 +1,25 @@
+.bg-nav{
+    background-color: rgb(44, 62, 80);
+    color: white !important;
+}
+
+
+.nav-link {
+    color: white;
+}
+.transition {
+transition: height 1s ;
+}
+.h-50px{
+    height: 50px;
+}
+.h-80px{
+    height: 80px;
+}
+.selected{
+ background-color: var(--primary-color) !important;
+border-radius: 10%;
+ font-weight: 800;
+ 
+}
+

@@ -1,0 +1,31 @@
+.portfolio {
+  color: var(--secondry-color);
+}
+.padding-from-top {
+  padding-top: 20vh;
+}
+.img-item img {
+  border-radius: 2.5%;
+}
+.layer {
+  height: 100%;
+  width: 100%;
+  background-color: var(--primary-color);
+  top: 0%;
+  left: 0%;
+  position: absolute;
+  opacity: 0%;
+  border-radius: 2.5%;
+  transition: all 1s;
+}
+.layer:hover {
+  opacity: 95%;
+}
+.layer i {
+  font-size: 100px;
+}
+
+.myModal {
+background-color: aqua ;
+
+}
