@@ -13,7 +13,7 @@ const routes: Routes = [
   {path:"about", component:AboutComponent, title:"about"} ,
   {path:"portfolio", component:PortfolioComponent, title:"portfolio"} ,
   {path:"contact", component:ContactComponent, title:"contact"} ,
-  {path:"**", component:NotfoundComponent, title:"home"} 
+  {path:"**", component:NotfoundComponent, title:"notfound"} 
 ];
 
 
